@@ -6,16 +6,17 @@ dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 table = dynamodb.Table('KumiteFighters')
 
 with open("fighters.json") as json_file:
-    Fighters = json.load(json_file)
-    for fighters in Fighters:
-        Fighter = ['Frank Dux']
-        Outfit = ['BlackGi/YellowSash']
+    KumiteFighters = json.load(json_file)
+    for fighter in KumiteFighters:
+        Fighter = fighter['Fighter']
+        Outfit = fighter ['Outfit']
         
-        print("Adding Fighter:")
-        
+        print("Adding Fighter:", Fighter, Outfit)
+
         table.put_item(
             Item={
-                'Fighter': 'Frank Dux'
-                'Outfit' : 'BlackGi/YellowSash'
+                'Fighter': Fighter,
+                'Outfit': Outfit,
             }
-        )     
+        )
+        

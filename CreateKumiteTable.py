@@ -1,4 +1,5 @@
 import boto3
+
 #Create DynamoDB Table
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
