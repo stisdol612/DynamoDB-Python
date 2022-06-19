@@ -3,7 +3,7 @@ import boto3
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
 table = dynamodb.create_table(
-    TableName ='Kumite Fighters',
+    TableName ='KumiteFighters',
     KeySchema = [
         {
             'AttributeName': 'Fighter',
