@@ -6,8 +6,8 @@ table = dynamodb.Table('KumiteFighters')
 with table.batch_writer() as batch:
     batch.put_item(
         Item={
-            "Fighter": "Frank Dux",
-            "Outfit" : "BlackGi/YellowSash"
+            'Fighter': 'Frank Dux',
+            'Outfit': 'BlackGi/YellowSash'
         }
     )
 
@@ -88,3 +88,4 @@ with table.batch_writer() as batch:
         Item={}
     )                                       
 
+print(batch)
