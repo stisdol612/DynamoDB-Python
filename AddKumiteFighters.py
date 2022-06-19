@@ -8,14 +8,14 @@ table = dynamodb.Table('KumiteFighters')
 with open("fighterdata.json") as json_file:
     Fighters = json.load(json_file)
     for fighters in Fighters:
-        fighter = Fighter['fighter']
-        outfit = Outfit ['outfit']
+        key = ['fighter']
+        value = ['outfit']
         
-        print("Adding Fighter:", Fighter, Outfit)
+        print("Adding Fighter:")
         
         table.put_item(
             Item={
-                'Fighter': Fighter,
-                'Outfit' : Outfit
+                'Fighter': key,
+                'Outfit' : value
             }
         )
