@@ -1,0 +1,42 @@
+[
+    {
+        "Fighter": "Frank Dux"
+        "Outfit" : "BlackGi/YellowSash"
+    },    
+    {
+        "Fighter": "Bolo Jenkins"
+        "Outfit" : "BlackPants/RedSash"
+    },  
+    {
+        "Fighter": "Ray Jackson"
+        "Outfit" : "BlackSweats/GoldSash"
+    }, 
+    {
+        "Fighter": "Paco"
+        "Outfit" : "Red Muy Thai Shorts"
+    }, 
+    {
+        "Fighter": "Budimam Prang"
+        "Outfit" : "BlackPants/YellowSash"
+    }, 
+    {
+        "Fighter": "Chuan Ip Mung"
+        "Outfit" : "GoldPants/YellowSash"
+    }, 
+    {
+        "Fighter": "Attillio Reale"
+        "Outfit" : "TealPants/GoldSash"
+    }, 
+    {
+        "Fighter": "Pumola"
+        "Outfit" : "Sumo Skirt"
+    }, 
+    {
+        "Fighter": "Sen Ling"
+        "Outfit" : "GreyGi/RedSash"
+    }, 
+    {
+        "Fighter": "Suan Paredes"
+        "Outfit" : "BlueShorts/YellowSash"
+    }
+]    
