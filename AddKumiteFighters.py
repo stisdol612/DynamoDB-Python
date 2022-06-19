@@ -5,7 +5,7 @@ dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
 table = dynamodb.Table('KumiteFighters')
 
-with open("fighterdata.json") as json_file:
+with open("fighters.json") as json_file:
     Fighters = json.load(json_file)
     for fighters in Fighters:
         key = ['fighter']
