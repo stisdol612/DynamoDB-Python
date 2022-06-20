@@ -4,6 +4,7 @@ dynamodb = boto3.resource('dynamodb')
 
 table = dynamodb.Table('KumiteFighters')
 
+#Lambda use to delete an item
 def lambda_handler(event, context):
     client_dynamo=boto3.resource('dynamodb')
     table=client_dynamo.Table('KumiteFighters')
