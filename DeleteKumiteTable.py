@@ -4,7 +4,7 @@ client = boto3.client('dynamodb')
 
 try:
     resp = client.delete_table(
-        TableName="Kumite Fighters",
+        TableName="KumiteFighters",
     )
     print("You have successfully deleted the table.!")
 except Exception as x:
